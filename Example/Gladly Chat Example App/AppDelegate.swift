@@ -15,12 +15,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
     /*
      Application ID given to identify your account in Gladly
      */
-    let appId = "some-app-id"
-    
+    let appId = "xbFwCMqxDITOGjr-app"
+
     /*
      Specify what environment to connect to, either "STAGING" or "PROD"
      */
-    let environment = "STAGING"
+    let environment = "PROD"
 
     var window: UIWindow?
 
@@ -38,6 +38,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
          */
         do {
             try Gladly.initialize(settings: settings)
+            try Gladly.set(user: GladlyUser(email: "therapist1rangel@gmail.com", name: "SootheTherapist"))
             Gladly.notificationDelegate = self
             registerForPushNotifications()
         } catch {

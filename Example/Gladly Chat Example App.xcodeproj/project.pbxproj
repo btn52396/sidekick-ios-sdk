@@ -304,7 +304,7 @@
 				CODE_SIGN_ENTITLEMENTS = "Gladly Chat Example App/Gladly Chat Example App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "";
-				DEVELOPMENT_TEAM = WYUZ8W9YQW;
+				DEVELOPMENT_TEAM = MKBSUCBQWE;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -314,7 +314,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "come.gladly.Gladly-Chat-Example-App";
+				PRODUCT_BUNDLE_IDENTIFIER = com.soothe.gladly;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -328,7 +328,7 @@
 				CODE_SIGN_ENTITLEMENTS = "Gladly Chat Example App/Gladly Chat Example App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "";
-				DEVELOPMENT_TEAM = WYUZ8W9YQW;
+				DEVELOPMENT_TEAM = MKBSUCBQWE;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -338,7 +338,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "come.gladly.Gladly-Chat-Example-App";
+				PRODUCT_BUNDLE_IDENTIFIER = com.soothe.gladly;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

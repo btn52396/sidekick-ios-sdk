@@ -15,7 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
     /*
      Application ID given to identify your account in Gladly
      */
-    let appId = "xbFwCMqxDITOGjr-app"
+    let appId = "00AEDB2520C1-app"
 
     /*
      Specify what environment to connect to, either "STAGING" or "PROD"
